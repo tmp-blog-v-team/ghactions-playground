@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://jpaztech.github.io/example-blog/"/>
-  <updated>2021-04-22T15:32:41.143Z</updated>
+  <updated>2021-04-22T15:35:56.196Z</updated>
   <id>https://jpaztech.github.io/example-blog/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>test2</title>
+    <link href="https://jpaztech.github.io/example-blog/information/test2/"/>
+    <id>https://jpaztech.github.io/example-blog/information/test2/</id>
+    <published>2021-04-23T01:00:00.000Z</published>
+    <updated>2021-04-22T15:35:56.196Z</updated>
+    
+    <content type="html"><![CDATA[<p>test2</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;test2&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Information" scheme="https://jpaztech.github.io/example-blog/tags/Information/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Example article</title>
     <link href="https://jpaztech.github.io/example-blog/information/test/"/>
     <id>https://jpaztech.github.io/example-blog/information/test/</id>
     <published>2020-12-21T06:00:00.000Z</published>
-    <updated>2021-04-22T15:32:41.143Z</updated>
+    <updated>2021-04-22T15:35:56.196Z</updated>
     
     <content type="html"><![CDATA[<p>hello, world!</p>]]></content>
     
