@@ -14,7 +14,7 @@ jobs:
         submodules: true
 
     - name: build-blog
-      uses: tmp-blog-v-team/blog-gh-actions/build-blog@v1
+      uses: cssjpn/blog-gh-actions/build-blog@v1
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
