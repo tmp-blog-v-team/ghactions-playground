@@ -12,7 +12,7 @@ jobs:
       (github.event.action == 'opened' || github.event.action == 'reopened')
     steps:
     - name: pr-comment
-      uses: cssjpn/blog-gh-actions/pr-comment@v1
+      uses: cssjpn/blog-gh-actions/pr-comment@remove_dockerfile_and_script
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -22,7 +22,7 @@ jobs:
       github.event_name == 'pull_request_target' && github.event.action == 'closed'
     steps:
     - name: Delete preview site
-      uses: cssjpn/blog-gh-actions/delete-preview@v1
+      uses: cssjpn/blog-gh-actions/delete-preview@remove_dockerfile_and_script
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         azure-storage-connection-string: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
