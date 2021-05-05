@@ -1,9 +1,10 @@
 name: upload-gh-pages
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+#  push:
+#    branches:
+#      - main
 
 jobs:
   upload-gh-pages:
@@ -14,7 +15,7 @@ jobs:
         submodules: true
 
     - name: build-blog
-      uses: cssjpn/blog-gh-actions/build-blog@remove_dockerfile_and_script
+      uses: cssjpn/blog-gh-actions/build-blog@a572686ab0eb48ba5055ebf5195d944c0259170b
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
